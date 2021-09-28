@@ -2,8 +2,8 @@ import sumar from "./App";
 
 const first = document.querySelector("#first-number");
 const second = document.querySelector("#second-number");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const form = document.querySelector("#calculate-form");
+const div = document.querySelector("#result-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
